@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Var(object):
-    MULTI_CLIENT = False
+    MULTI_CLIENT = True
     API_ID = int(getenv('API_ID', '7988735'))
     API_HASH = str(getenv('API_HASH', '8339b7684eb7f4653ed032d4828ebf89'))
     BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
